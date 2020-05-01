@@ -1,0 +1,20 @@
+body{
+    background-color: brown;
+}
+    img{
+    width: 150px;
+    height: 150px;
+border-style: groove;
+border-color: gold;
+border-width: 10px;
+}
+div{
+    height: 100px;
+	display: inline-block;
+    width: 15%;
+    padding: 0;
+    margin: 0;
+}
+.top{
+    position:fixed;
+}

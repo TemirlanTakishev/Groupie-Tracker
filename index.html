@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/static/style.css" />
+        <title>My Groupie-Tracker</title>
+    </head>
+    {{range .}}
+    <a href="/artist/{{.ID}}">
+        <div> 
+            <h2>{{.Name}}</h2>
+            <img  src="{{.Image}}" alt="">
+           </div>
+           </a>
+           {{end}}
+</html>
